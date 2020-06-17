@@ -202,7 +202,7 @@ impl<'a> Iterator for WordsIter<'a> {
     type Item = &'a str;
 
     fn next(&mut self) -> Option<&'a str> {
-        self.current_str = self.current_str.trim_left();
+        self.current_str = self.current_str.trim_start();
         if self.current_str.is_empty() {
             return None;
         }
@@ -218,7 +218,7 @@ impl<'a> Iterator for WordsIter<'a> {
         if alphanum_word.is_empty() {
             // Yield the first non-alphanumeric, non-whitespace character
             let (head, tail) = {
-                let new_str = rest.trim_left();
+                let new_str = rest.trim_start();
                 if new_str.is_empty() {
                     return None;
                 }

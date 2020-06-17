@@ -1,6 +1,6 @@
 extern crate morse_code;
 
-use morse_code::{encode, Action, State};
+use morse_code::{encode, State};
 
 #[test]
 fn case_independent() {
