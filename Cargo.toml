@@ -2,6 +2,12 @@
 name = "small_morse"
 version = "0.1.0"
 authors = ["Mark Barbone <mark.l.barbone@gmail.com>"]
+license = "MIT"
+description = "A simple, no_std morse code API"
+documentation = "https://docs.rs/small_morse"
+homepage = "https://github.com/mb64/small_morse"
+repository = "https://github.com/mb64/small_morse"
+readme = "README.md"
 edition = "2018"
 
 [dependencies]
