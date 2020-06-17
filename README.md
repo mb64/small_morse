@@ -1,5 +1,8 @@
 # Morse code generation library for Rust
 
+[![Crates.io Status](https://meritbadge.herokuapp.com/small_morse)](https://crates.io/crates/small_morse)
+[![Docs.rs Status](https://docs.rs/small_morse/badge.svg)](https://docs.rs/small_morse)
+
 License: MIT
 
 ## Features
