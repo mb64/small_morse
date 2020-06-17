@@ -1,4 +1,4 @@
-use morse_code::encode;
+use small_morse::encode;
 
 #[test]
 fn letters() {

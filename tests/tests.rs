@@ -1,4 +1,4 @@
-use morse_code::{encode, State};
+use small_morse::{encode, State};
 
 #[test]
 fn case_independent() {

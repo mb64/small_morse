@@ -8,8 +8,8 @@
 //!     // ...
 //! }
 //!
-//! for action in morse_code::encode("Hello in morse code!") {
-//!     if action.state == morse_code::State::On {
+//! for action in small_morse::encode("Hello in morse code!") {
+//!     if action.state == small_morse::State::On {
 //!         beep_for(action.duration);
 //!     } else {
 //!         wait_for(action.duration);

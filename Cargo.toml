@@ -1,5 +1,5 @@
 [package]
-name = "morse_code"
+name = "small_morse"
 version = "0.1.0"
 authors = ["Mark Barbone <mark.l.barbone@gmail.com>"]
 edition = "2018"
