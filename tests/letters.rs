@@ -1,5 +1,3 @@
-extern crate morse_code;
-
 use morse_code::encode;
 
 #[test]

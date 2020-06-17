@@ -31,13 +31,10 @@
     unused_qualifications
 )]
 
-#[cfg(test)]
-extern crate core;
-
 pub(crate) mod char_map;
 mod morse_iter;
 
-pub use morse_iter::{Action, DelayType, MorseIter, State};
+pub use crate::morse_iter::{Action, DelayType, MorseIter, State};
 
 /// Creates an iterator over the `Action`s necessary to send the message
 pub fn encode(message: &str) -> MorseIter<'_> {

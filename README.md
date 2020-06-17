@@ -30,3 +30,9 @@ for action in morse_code::encode("Hello in morse code!") {
     }
 }
 ```
+
+## Intended use
+
+The natural extension to your simple embedded project of blinking an LED is to
+blink it in morse code.  The goal of this library is to make it easy to emit
+morse code from any environment, and with any type of output.

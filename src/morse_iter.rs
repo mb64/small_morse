@@ -240,7 +240,7 @@ impl<'a> Iterator for WordsIter<'a> {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use Signal::*;
+    use crate::Signal::*;
 
     #[test]
     fn words_test() {
